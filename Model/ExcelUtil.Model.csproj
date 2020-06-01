@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Magicodes.ExporterAndImporter.Core">
+      <HintPath>C:\Users\admin\.nuget\packages\magicodes.ie.core\2.2.1\lib\netstandard2.0\Magicodes.ExporterAndImporter.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
