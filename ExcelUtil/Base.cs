@@ -20,7 +20,7 @@ namespace ExcelUtil
         /// <returns></returns>
         public ExporterHeaderInfo Filter(ExporterHeaderInfo exporterHeaderInfo)
         {
-            if (ExcelBaseDto.Coulmns!=null&&ExcelBaseDto.Coulmns.Any())
+            if (ExcelBaseDto.Coulmns!=null&&ExcelBaseDto.Coulmns.Any()) 
             {
                 foreach (var item in ExcelBaseDto.Coulmns)
                 {
