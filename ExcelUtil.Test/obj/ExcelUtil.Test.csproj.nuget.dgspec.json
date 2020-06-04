@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test\\ExcelUtil.Test.csproj": {}
+    "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test\\ExcelUtil.Test.csproj": {}
   },
   "projects": {
-    "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test\\ExcelUtil.Test.csproj": {
+    "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test\\ExcelUtil.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test\\ExcelUtil.Test.csproj",
+        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test\\ExcelUtil.Test.csproj",
         "projectName": "ExcelUtil.Test",
-        "projectPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test\\ExcelUtil.Test.csproj",
+        "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test\\ExcelUtil.Test.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test\\obj\\",
+        "outputPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -33,11 +33,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj": {
-                "projectPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj"
+              "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj": {
+                "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj"
               },
-              "G:\\ThirdParty\\ExcelUtil2\\Model\\ExcelUtil.Model.csproj": {
-                "projectPath": "G:\\ThirdParty\\ExcelUtil2\\Model\\ExcelUtil.Model.csproj"
+              "G:\\ThirdParty\\ExcelUtil\\Model\\ExcelUtil.Model.csproj": {
+                "projectPath": "G:\\ThirdParty\\ExcelUtil\\Model\\ExcelUtil.Model.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj": {
+    "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj",
+        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj",
         "projectName": "ExcelUtil",
-        "projectPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj",
+        "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\obj\\",
+        "outputPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -168,14 +168,14 @@
         }
       }
     },
-    "G:\\ThirdParty\\ExcelUtil2\\Model\\ExcelUtil.Model.csproj": {
+    "G:\\ThirdParty\\ExcelUtil\\Model\\ExcelUtil.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil2\\Model\\ExcelUtil.Model.csproj",
+        "projectUniqueName": "G:\\ThirdParty\\ExcelUtil\\Model\\ExcelUtil.Model.csproj",
         "projectName": "ExcelUtil.Model",
-        "projectPath": "G:\\ThirdParty\\ExcelUtil2\\Model\\ExcelUtil.Model.csproj",
+        "projectPath": "G:\\ThirdParty\\ExcelUtil\\Model\\ExcelUtil.Model.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "G:\\ThirdParty\\ExcelUtil2\\Model\\obj\\",
+        "outputPath": "G:\\ThirdParty\\ExcelUtil\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -196,7 +196,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj": {
+                "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

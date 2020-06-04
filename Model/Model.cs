@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using Magicodes.ExporterAndImporter.Core;
 using Magicodes.ExporterAndImporter.Core.Filters;
 using Magicodes.ExporterAndImporter.Core.Models;
@@ -70,28 +73,12 @@ namespace ExcelUtil.Model
         public ImporterProductType Type { get; set; }
     }
 
-    public class ExporterHeaderFilter : IExporterHeaderFilter
-    {
-        /// <summary>
-        /// 表头筛选器（修改名称）
-        /// </summary>
-        /// <param name="exporterHeaderInfo"></param>
-        /// <returns></returns>
-        public ExporterHeaderInfo Filter(ExporterHeaderInfo exporterHeaderInfo)
-        {
-            if (exporterHeaderInfo.DisplayName.ToLower().Equals("name"))
-            {
-                exporterHeaderInfo.DisplayName = "名称";
-            }
-            return exporterHeaderInfo;
-        }
-    }
 
     /// <summary>
     /// 生成模板/导出DTO
     /// </summary>
     [Exporter(Name = "通用导出", MaxRowNumberOnASheet = 100, Author = "sailing", TableStyle = "Light10", ExporterHeaderFilter = typeof(ExporterHeaderFilter))]
-    public class ExporterProductDto
+    public class ExporterProductDto : ExcelBaseDto
     {
         /// <summary>
         ///     产品名称

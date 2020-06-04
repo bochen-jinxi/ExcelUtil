@@ -2,11 +2,47 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading;
+using Magicodes.ExporterAndImporter.Core.Filters;
+using Magicodes.ExporterAndImporter.Core.Models;
 
 namespace ExcelUtil
 {
+
+    public class ExporterHeaderFilter : IExporterHeaderFilter
+    {
+        /// <summary>
+        /// 表头筛选器（修改名称）
+        /// </summary>
+        /// <param name="exporterHeaderInfo"></param>
+        /// <returns></returns>
+        public ExporterHeaderInfo Filter(ExporterHeaderInfo exporterHeaderInfo)
+        {
+            if (ExcelBaseDto.Coulmns.Any())
+            {
+                foreach (var item in ExcelBaseDto.Coulmns)
+                {
+                    if (item.Key.ToLower() == exporterHeaderInfo.PropertyName.ToLower())
+                    {
+                        exporterHeaderInfo.DisplayName = item.Value;
+                    }
+                }
+            }
+            return exporterHeaderInfo;
+        }
+    }
+
+    public class ExcelBaseDto
+    {
+
+        public static Dictionary<string, string> Coulmns { get; set; }
+        public static void Filter(Dictionary<string, string> clumn)
+        {
+            Coulmns = clumn;
+        }
+    }
     public class Base
     {
         public Base()

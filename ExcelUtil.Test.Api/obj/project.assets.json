@@ -5161,11 +5161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test.Api\\ExcelUtil.Test.Api.csproj",
+      "projectUniqueName": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test.Api\\ExcelUtil.Test.Api.csproj",
       "projectName": "ExcelUtil.Test.Api",
-      "projectPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test.Api\\ExcelUtil.Test.Api.csproj",
+      "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test.Api\\ExcelUtil.Test.Api.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil.Test.Api\\obj\\",
+      "outputPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil.Test.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5187,8 +5187,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj": {
-              "projectPath": "G:\\ThirdParty\\ExcelUtil2\\ExcelUtil\\ExcelUtil.csproj"
+            "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj": {
+              "projectPath": "G:\\ThirdParty\\ExcelUtil\\ExcelUtil\\ExcelUtil.csproj"
             }
           }
         }

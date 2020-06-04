@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ExcelUtil\ExcelUtil.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Magicodes.ExporterAndImporter.Core">
       <HintPath>C:\Users\admin\.nuget\packages\magicodes.ie.core\2.2.1\lib\netstandard2.0\Magicodes.ExporterAndImporter.Core.dll</HintPath>
     </Reference>
