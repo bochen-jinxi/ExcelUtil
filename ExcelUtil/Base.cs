@@ -10,7 +10,9 @@ using Magicodes.ExporterAndImporter.Core.Models;
 
 namespace ExcelUtil
 {
-
+    /// <summary>
+    /// 过滤的头
+    /// </summary>
     public class ExporterHeaderFilter : IExporterHeaderFilter
     {
         /// <summary>
@@ -37,10 +39,14 @@ namespace ExcelUtil
             return exporterHeaderInfo;
         }
     }
-
+    /// <summary>
+    /// Dto基类
+    /// </summary>
     public class ExcelBaseDto
     {
-
+        /// <summary>
+        /// 需要的列
+        /// </summary>
         public static Dictionary<string, string> Coulmns { get; set; }
         public static void Filter(Dictionary<string, string> clumn)
         {
