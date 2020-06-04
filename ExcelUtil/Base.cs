@@ -20,13 +20,17 @@ namespace ExcelUtil
         /// <returns></returns>
         public ExporterHeaderInfo Filter(ExporterHeaderInfo exporterHeaderInfo)
         {
-            if (ExcelBaseDto.Coulmns.Any())
+            if (ExcelBaseDto.Coulmns!=null&&ExcelBaseDto.Coulmns.Any())
             {
                 foreach (var item in ExcelBaseDto.Coulmns)
                 {
                     if (item.Key.ToLower() == exporterHeaderInfo.PropertyName.ToLower())
                     {
                         exporterHeaderInfo.DisplayName = item.Value;
+                    }
+                    else
+                    {
+                        exporterHeaderInfo.ExporterHeaderAttribute.IsIgnore = true;
                     }
                 }
             }
