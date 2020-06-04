@@ -58,7 +58,7 @@ namespace ExcelUtil.Test
 
 
             //设置需要的字段
-            var dic = new Dictionary<string, string>(){ { "name","名称3"},{"code","编码3"} };
+            var dic = new Dictionary<string, string>(){ { "name","名称3"},{"code","编码3"}, { "BarCode", "编号" } };
             ExporterProductDto.Filter(dic);
              var reult2 = await oExcel.ExportSingSheelAsync(filePath2, list);
 

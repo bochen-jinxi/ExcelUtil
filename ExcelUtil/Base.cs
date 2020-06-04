@@ -29,6 +29,8 @@ namespace ExcelUtil
                     if (item.Key.ToLower() == exporterHeaderInfo.PropertyName.ToLower())
                     {
                         exporterHeaderInfo.DisplayName = item.Value;
+                        exporterHeaderInfo.ExporterHeaderAttribute.IsIgnore = false;
+                        break;
                     }
                     else
                     {
