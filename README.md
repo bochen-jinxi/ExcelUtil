@@ -1,5 +1,25 @@
 # ExcelUtil
 基于Magicodes.IE.Excel，操作Excel导入导出
+使用步骤
+
+
+var host = new HostBuilder()
+
+               .ConfigureServices((hostContext, services) =>
+               {
+                   //注册后台普通服务
+                   services.AddExcelService();
+               })
+               .ConfigureLogging((hostContext, configLogging) =>
+               {
+                   configLogging.AddConsole();
+                   configLogging.AddDebug();
+               })
+               .UseConsoleLifetime()
+               .Build();
+
+            // 获取服务
+            var oExcel = host.Services.GetRequiredService<IExcel>();
 
             var filePath2 = Path.Combine(Directory.GetCurrentDirectory(), "产品单sheel导出模板.xlsx");
             var list = new List<ExporterProductDto>()
