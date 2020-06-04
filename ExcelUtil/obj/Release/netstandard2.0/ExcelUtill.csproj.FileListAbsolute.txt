@@ -1,9 +1,0 @@
-G:\ThirdParty\ExcelUtil\ExcelUtil\bin\Release\netstandard2.0\ExcelUtill.deps.json
-G:\ThirdParty\ExcelUtil\ExcelUtil\bin\Release\netstandard2.0\ExcelUtill.dll
-G:\ThirdParty\ExcelUtil\ExcelUtil\bin\Release\netstandard2.0\ExcelUtill.pdb
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.csprojAssemblyReference.cache
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.csproj.CoreCompileInputs.cache
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.AssemblyInfoInputs.cache
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.AssemblyInfo.cs
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.dll
-G:\ThirdParty\ExcelUtil\ExcelUtil\obj\Release\netstandard2.0\ExcelUtill.pdb
