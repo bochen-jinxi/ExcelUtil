@@ -2,5 +2,8 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/ExcelUtil/bin
+/ExcelUtil.Test/obj/Debug/netcoreapp3.1
+/ExcelUtil/obj/Debug/netstandard2.0
+/ExcelUtil.Test
+/ExcelUtil/bin/Debug/netstandard2.0
 /ExcelUtil/obj
